@@ -70,7 +70,7 @@ export function List() {
   )
 
   return(
-    <View>
+    <View style={styles.container}>
        <Text style={styles.title}>Lista de jogadores</Text>
       <FlatList 
       style={styles.list}
@@ -91,4 +91,36 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
       },
+      list:{
+        marginTop: 10,
+      },
+      text:{
+        color: "white",
+        fontSize: 15,
+        width: 200,
+        padding: 9,
+        backgroundColor: "blue",
+        borderRadius: 5,
+        marginBottom: 10
+      },
+      title:{
+        fontWeight:"bold",
+        marginTop: "10%",
+        marginBottom: "10%",
+        fontSize: 20,
+        color: "black"
+      },
+      btnTxt: {
+        fontFamily: "Arial",
+        color: "white",
+      },
+      btn:{
+        color:"white",
+        marginTop: 10,
+        padding: 9,    
+        width: 60,
+        textAlign: "center",
+        borderRadius: 5,
+        backgroundColor: "blue",
+      }
 })

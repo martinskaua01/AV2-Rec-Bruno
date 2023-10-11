@@ -93,4 +93,40 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
       },
+      input:{
+        color: "black",
+        fontSize: 15,
+        width: "60%",
+        padding: 9,
+        borderWidth: 1,
+        borderColor: "black",
+        backgroundColor: "#FFFF",
+        borderRadius: 5,
+        marginBottom: 12
+      },
+      inputValue:{
+        fontSize: 14,
+        width: '60%',
+        color: 'black',
+        marginBottom: 20
+      },
+      btn: {
+        color:"white",
+        marginTop: 10,
+        padding: 15,    
+        textAlign: "center",
+        borderRadius: 5,
+        backgroundColor: "blue",
+    
+      },
+      btnTxt: {
+        fontFamily: "Arial",
+        color: "white",
+      },
+      textInput: {
+        fontSize: 16,
+        width: '60%',
+        marginBottom: 5,
+        color: "black"
+      },
 })
